@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            /*
+            Medidas Absolutas
+
+            cm(centimetro), mc(milimetros), in(polegadas), px(pixel), pt(ponto), pc(pica)
+
+            Medidas relativas
+            em(medida relativa ao tamanho atual da fonte), ex( medida relativa a altura da fonte), rem, vw, vh, %
+            geralmente 16px = 1em
+            o w3x recomenda uzar em ou px(preferênciar o em)
+            */
+            font-size: 16px;
+            font-weight: bolder; /*Negrito as opções são = lighter, normal, bold, bolder */
+
+            font-style: italic; /*Italico */
+
+            text-decoration: underline; /*Sublinhado */
+
+            /* weight(peso) width(largura) height(altura)
+            */
+        }
+
+        h1 {
+            font-family: 'work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand fort
+            font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'work Sans';
+        }
+    </style>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <h1>Trabalhando com Fontes</h1> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, architecto magnam! Aperiam maxime minus quos ratione ea natus fugit, soluta libero eos laudantium! Dolor eos, dolore numquam quia aliquid eius.</p>  
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam sint quibusdam in dignissimos deserunt natus, earum dolorem deleniti odit esse sapiente non debitis voluptatem aut hic quisquam modi dolores molestias.</p>
+</body>
+</html>
